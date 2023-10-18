@@ -10,7 +10,7 @@
         android:padding=R.dimen.titlePadding
         android:textSize=R.dimen.titleTextSize
         android:textColor=R.color.titleColor
-        android:text=R.string.title
+        android:text=R.string.defaultTitle
         qinter:id="text_title"/>
 
     <RelativeLayout

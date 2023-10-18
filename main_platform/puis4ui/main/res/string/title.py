@@ -1,4 +1,4 @@
 from Qinter import R
 
-R.string.titleMain="Puissance 4"
+R.string.titleDefault="Puissance 4"
 
