@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:textSize=R.dimen.buttonTextSize
         android:background=R.color.buttonBackground
+        android:text=R.string.menu_buttonOnline
         qinter:id="button_online"/>
 
     <View
@@ -25,7 +26,8 @@
         android:layout_height="wrap_content"
         android:textSize=R.dimen.buttonTextSize
         android:background=R.color.buttonBackground
-        qinter:id="button_local"/>
+        android:text=R.string.menu_buttonOffline
+        qinter:id="button_offline"/>
 
     <View
         android:layout_width="match_parent"

@@ -1,3 +1,4 @@
 from Qinter import R, Color
+from .app import *
 
-R.color.titleColor = Color(Color.OPAC + Color.WHITE)
+R.color.titleColor = R.color.primaryColor
