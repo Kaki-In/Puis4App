@@ -1,0 +1,41 @@
+<LinearLayout
+    android:layout_width=R.dimen.gridCaseSize
+    android:layout_height=R.dimen.gridCaseSize
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width=Size(R.dimen.gridCaseSpacing.getSize()/2, R.dimen.gridCaseSpacing.getUnit())
+        android:layout_height="match_parent"
+        android:background=R.color.grid/>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_height=Size(R.dimen.gridCaseSpacing.getSize()/2, R.dimen.gridCaseSpacing.getUnit())
+            android:layout_width="match_parent"
+            android:background=R.color.grid/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:padding=R.dimen.gridTokenPadding
+            android:adjustViewBounds="true"
+            android:visibility="invisible"/>
+
+        <View
+            android:layout_height=Size(R.dimen.gridCaseSpacing.getSize()/2, R.dimen.gridCaseSpacing.getUnit())
+            android:layout_width="match_parent"
+            android:background=R.color.grid/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width=Size(R.dimen.gridCaseSpacing.getSize()/2, R.dimen.gridCaseSpacing.getUnit())
+        android:layout_height="match_parent"
+        android:background=R.color.grid/>
+
+</LinearLayout>

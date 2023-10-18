@@ -1,0 +1,7 @@
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="math_parent"
+    android:orientation="vertical">
+
+</LinearLayout>
+

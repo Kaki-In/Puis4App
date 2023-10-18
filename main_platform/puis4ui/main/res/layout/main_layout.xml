@@ -1,0 +1,25 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background=R.color.appBackground>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding=R.dimen.titlePadding
+        android:textSize=R.dimen.titleTextSize
+        android:textColor=R.color.titleColor
+        qinter:id="text_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        qinter:id="appMainLayout">
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
