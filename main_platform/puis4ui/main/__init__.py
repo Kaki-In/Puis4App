@@ -16,7 +16,7 @@ class Puis4MainLayout(Layout):
         menu = Puis4MenuLayout()
 #        grid = Puis4Gridlayout(model.grid())
         
-        view.findViewById("appMainLayout").addView(menu.getView())
+#        view.findViewById("appMainLayout").addView(menu.getView())
 #        view.findViewById("appmainlayout").addView(grid)
         
         self.setView(view)
