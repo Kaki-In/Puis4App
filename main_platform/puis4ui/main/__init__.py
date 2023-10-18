@@ -20,4 +20,4 @@ class Puis4MainLayout(Layout):
 #        view.findViewById("appmainlayout").addView(grid)
         
         self.setView(view)
-        print(self.view)
+        print(view)
